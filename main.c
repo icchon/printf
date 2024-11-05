@@ -6,7 +6,7 @@
 /*   By: kaisobe <kaisobe@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 13:33:59 by kaisobe           #+#    #+#             */
-/*   Updated: 2024/11/05 08:11:28 by kaisobe          ###   ########.fr       */
+/*   Updated: 2024/11/05 11:55:29 by kaisobe          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	main(void)
 {
-	ft_printf("%c\n%s\n%p\n%d\n%i\n%u\n%x\n%X\n%% end", 'A', NULL, "poitner",
-		-42, -42, 42, 255, 255);
+	ft_printf("%+10c\n%-89.54s\n% .666p\n%d\n%i\n%u\n%x\n%X\n%% end %3489.90d",
+		'A', NULL, "poitner", -42, -42, 42, 255, 255);
 	// ft_putshex(15);
 	// ft_putshex(9);
 	// ft_putshex(16);
